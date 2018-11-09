@@ -1,0 +1,11 @@
+{
+  "name": "nodejs-logging",
+  "version": "0.0.1",
+  "description": "Attempt to simplify logging by choosing sane defaults for dev and prod",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Oloff <chris@uber5.com> (http://about.uber5.com/)",
+  "license": "ISC"
+}
