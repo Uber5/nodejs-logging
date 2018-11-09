@@ -7,7 +7,7 @@ This is an opinionated approach, with sane defaults, for servers (HTTP or otherw
 # Principles and Settings
 
 - Use `console.log` as you wish in development, but (by default) suppress its output in production (`NODE_ENV === 'production'`).
-- In order to see `console.log` output in production, set `WINSTON_LEVEL` to `debug` (which will also enable all [winston]() based `logger.debug()` logs).
+- In order to see `console.log` output in production, set `WINSTON_LEVEL` to `debug` (which will also enable all [winston](https://www.npmjs.com/package/winston) based `logger.debug()` logs).
 - log output in production is into `./app-%date%.log`, no output on the console itself.
 - Log output, when not in production, is to the console, nothing written to files.
 - In production, an additional file `error-%date%.log` is written with actual errors.
