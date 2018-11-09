@@ -1,6 +1,6 @@
 {
   "name": "u5-nodejs-logging",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Opinionated attempt to simplify logging by choosing sane defaults for dev and prod",
   "main": "src/index.js",
   "scripts": {
@@ -20,7 +20,7 @@
     "nodemon": "^1.18.6"
   },
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/Uber5/nodejs-logging"
+    "type": "git",
+    "url": "https://github.com/Uber5/nodejs-logging"
   }
 }
