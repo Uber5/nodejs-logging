@@ -4,8 +4,18 @@
   "description": "Attempt to simplify logging by choosing sane defaults for dev and prod",
   "main": "index.js",
   "scripts": {
+    "sample": "nodemon sample",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Chris Oloff <chris@uber5.com> (http://about.uber5.com/)",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "morgan": "^1.9.1",
+    "winston": "^3.1.0"
+  },
+  "devDependencies": {
+    "express": "^4.16.4",
+    "jest": "^23.6.0",
+    "nodemon": "^1.18.6"
+  }
 }
