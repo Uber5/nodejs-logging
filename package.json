@@ -1,7 +1,7 @@
 {
-  "name": "nodejs-logging",
+  "name": "u5-nodejs-logging",
   "version": "0.0.1",
-  "description": "Attempt to simplify logging by choosing sane defaults for dev and prod",
+  "description": "Opinionated attempt to simplify logging by choosing sane defaults for dev and prod",
   "main": "src/index.js",
   "scripts": {
     "sample": "nodemon -w ./src -w ./sample sample",
@@ -11,7 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "morgan": "^1.9.1",
-    "winston": "^3.1.0"
+    "winston": "^3.1.0",
+    "winston-daily-rotate-file": "^3.5.1"
   },
   "devDependencies": {
     "express": "^4.16.4",
