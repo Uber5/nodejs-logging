@@ -14,6 +14,20 @@ This is an opinionated approach, with sane defaults, for servers (HTTP or otherw
 - Files written are limited in size and rotated.
 - Files older than 14 days are removed.
 
+# Install
+
+Via npm
+
+```
+npm install --save u5-nodejs-logging
+```
+
+... or via yarn
+
+```
+yarn add u5-nodejs-logging
+```
+
 # Logging via Winston
 
 ```
